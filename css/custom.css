@@ -12,9 +12,18 @@
     padding: 6rem 0;
 }
 
+.icon {
+    margin: 1rem;
+    text-decoration: none;
+}
+
 @media (min-width: 550px) {
     .header {
         margin-top: 12rem;
         margin-bottom: 12rem;
     }
+}
+
+.icon::before {
+    color: #222;
 }
