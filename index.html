@@ -62,8 +62,178 @@
             <li>経歴(仕事とか)</li>
             <li>実績(AtCorder/プロトタイピングラボ/Paizaコンテスト)</li>
             <li>資格(ないかも)</li>
-            <li>能力(言語/プラットフォーム/サービス)</li>
+            <li><s>能力(言語/プラットフォーム/サービス)</s>
+              <ul>
+                <li>書く粒度揃える</li>
+              </ul>
+            </li>
             <li>SNS リンク(GitHub/Twitter/そのほか?)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>能力</h3>
+      <h4>言語/技術別</h4>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th></th>
+            <th>言語/フレームワーク</th>
+            <th>技術/そのほか</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>経験あり</td>
+            <td>
+              <ul>
+                <li>C/C++
+                  <ul>
+                    <li>競プロ/組み込み/Unreal Engine</li>
+                  </ul>
+                </li>
+                <li>C#/F#</li>
+                <li>JavaScript/TypeScript
+                  <ul>
+                    <li>ブラウザ/Nodejs</li>
+                    <li>React(React Hooks)</li>
+                    <li>React Native(Expo)</li>
+                  </ul>
+                </li>
+                <li>Unreal Engine</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Docker</li>
+                <li>CI/CD環境構築
+                  <ul>
+                    <li>GitHub Actions</li>
+                    <li>GitLab CI</li>
+                    <li>AWS CodeBuild/CodePipeline</li>
+                  </ul>
+                </li>
+                <li>標準的なアプリケーションのオンプレ稼働
+                  <ul>
+                    <li>NginxでSSL化やバーチャルホスト設定できる程度</li>
+                  </ul>
+                </li>
+                <li>各種クラウドサービスのIaaS的な使用やサーバレス周りのサービス
+                  <ul>
+                    <li>AWS
+                      <ul>
+                        <li>EC2系/S3/Lambda/AppSync/DynamoDBなど</li>
+                      </ul>
+                    </li>
+                    <li>Azure
+                      <ul>
+                        <li>Virtual Machines/Functions/Cosmos DBなど</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>趣味/経験少なめ</td>
+            <td>
+              <ul>
+                <li>Rust</li>
+                <li>Go</li>
+                <li>Python</li>
+                <li>Ruby/Rails</li>
+                <li>Java</li>
+                <li>Haskell
+                  <ul>
+                    <li>Monad/Tagless Final理解程度</li>
+                  </ul>
+                </li>
+                <li>PureScript(同上)</li>
+                <li>Kotlin</li>
+                <li>Nextjs</li>
+                <li>Mithriljs</li>
+                <li>Cocos2d-x</li>
+                <li>Android ネイティブ開発</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>DB系
+                  <ul>
+                    <li>RDB</li>
+                    <li>NoSQL系(MongoDBなど)</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>知識のみ/学習中</td>
+            <td>
+              <ul>
+                <li>PHP</li>
+                <li>Perl</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>機械学習
+                  <ul>
+                    <li>ディープラーニング中心/E資格取得のための認定プログラム受講中</li>
+                  </ul>
+                </li>
+                <li>純粋関数型言語 理論(型システム詳細など)</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>プロダクト別</h4>
+      <ul>
+        <li>ミラーレス一眼/デジタルスチルカメラ/スマートフォンカメラ開発(C/C++)(6年間)
+          <ul>
+            <li>オートフォーカスアルゴリズム提案/設計/実装/性能評価(コントラストAF/像面位相差AF)</li>
+            <li>汎用IC(DMACなど)/専用ICのドライバ実装</li>
+            <li>オートフォーカス性能評価ツール作成(C#/F#/Python)</li>
+            <li>カメラ制御シーケンス設計/実装</li>
+            <li>開発インフラ整備/メンテナンス(GitLab/CI/共有ノートサービス(Scrapbox)/Redmineなど 後述)</li>
+          </ul>
+        </li>
+        <li>Unreal Engineを用いたPoC開発(プロダクト内容社外秘)(継続中)
+          <ul>
+            <li>Unreal Engineのサーバクライアント通信(dedicated server中心)提案/設計/実装</li>
+            <li>外部サービス(AWS/Vivox)のモジュール設計/実装</li>
+            <li>技術検討(主にSaaSの選定)</li>
+            <li>AWSサービスアーキテクチャ設計(Lambda(Python)/DynamoDB/API Gateway/AppSyncなど)</li>
+            <li>開発インフラ整備/メンテナンス(dedicated server稼働/AWS Gamelift/GitHub Actions/AWS CodeBuild/CodePipeline)</li>
+          </ul>
+        </li>
+        <li>社内/プロジェクト内環境構築
+          <ul>
+            <li>共有ノートサービス(Scrapbox)のオンプレ稼働/メンテナンス(Docker/Nginx)</li>
+            <li>プロジェクト管理ツール/Wiki(Redmine/Trac)のオンプレ稼働/メンテナンス</li>
+            <li>CI/CD環境構築
+              <ul>
+                <li>カメラ開発(GitLab CI)(Formatter/Linter/ビルドチェック/テスト)</li>
+                <li>UE開発(GitHub Actions/AWS CodeBuild/CodePipeline)(ビルドチェック/サーバデプロイ)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>メッセンジャーアプリサーバサイド開発(Go)(実工数2週間程度)
+          <ul>
+            <li>機能実装/E2Eテストフレームワーク検討</li>
+          </ul>
+        </li>
+        <li>React Native/Expoを用いたモバイルアプリケーション作成(趣味)(Typescript)</li>
+        <li>Cocos2d-xを用いたゲーム作成(学生時代)</li>
+        <li>OSS活動
+          <ul>
+            <li>Mastodon　CSS修正 <a href="https://github.com/mastodon/mastodon/pull/2724">PR</a></li>
+            <li>Mastodon　S3代替提案(close dup) <a href="https://github.com/mastodon/mastodon/pull/2444">PR</a></li>
+            <li>CodeMD(HackMDのOSS版) ページのパーミッション変更 <a href="https://github.com/hackmdio/codimd/issues/1144">Issue</a> <a href="https://github.com/hackmdio/codimd/pull/1152">PR</a></li>
           </ul>
         </li>
       </ul>
